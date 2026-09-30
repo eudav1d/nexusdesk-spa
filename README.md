@@ -64,3 +64,44 @@ nexusdesk-spa/
 ├── index.html
 ├── package.json
 └── tailwind.config.js
+```
+
+Markdown
+## 💻 Como Rodar o Projeto Localmente
+
+Siga o passo a passo abaixo para clonar e executar a aplicação na sua máquina:
+
+### Pré-requisitos
+- Ter o **Node.js** instalado (versão 18 ou superior recomendada): [nodejs.org](https://nodejs.org/)
+- Ter o **Git** instalado no computador.
+
+---
+
+### Passo a Passo
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone [https://github.com/eudav1d/nexusdesk-spa.git](https://github.com/eudav1d/nexusdesk-spa.git)
+Acessar a pasta do projeto:
+
+Bash
+cd nexusdesk-spa
+Instalar as dependências do projeto:
+
+Bash
+npm install
+Iniciar o servidor de desenvolvimento:
+
+Bash
+npm run dev
+Acessar no navegador:
+Após rodar o comando acima, o Vite vai liberar a porta local. Basta segurar Ctrl e clicar no link exibido no terminal ou abrir no navegador:
+
+Plaintext
+http://localhost:5173
+🛠️ Scripts Disponíveis no Projeto
+npm run dev: Roda a aplicação em modo de desenvolvimento com recarregamento rápido (hot reload).
+
+npm run build: Compila e gera os arquivos otimizados para produção na pasta dist/.
+
+npm run preview: Executa localmente o pacote final gerado pelo comando de build.
