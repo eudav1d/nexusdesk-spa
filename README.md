@@ -97,7 +97,7 @@ npm run dev
 Acessar no navegador:
 Após rodar o comando acima, o Vite vai liberar a porta local. Basta segurar Ctrl e clicar no link exibido no terminal ou abrir no navegador:
 
-Plaintext
+
 http://localhost:5173
 🛠️ Scripts Disponíveis no Projeto
 npm run dev: Roda a aplicação em modo de desenvolvimento com recarregamento rápido (hot reload).
